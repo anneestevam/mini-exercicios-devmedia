@@ -70,7 +70,7 @@ thead {
 }
 
 th, td {
-    padding-inline-start: 6px;
+    padding: 5px;
 }
 
 tbody tr:nth-last-of-type(odd) {
