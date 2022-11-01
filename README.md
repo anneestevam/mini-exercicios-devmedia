@@ -1,2 +1,2 @@
-# mini-exercicios-devmedia
+# Mini exercícios DevMedia
  
