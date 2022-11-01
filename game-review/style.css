@@ -1,0 +1,75 @@
+* {margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+header, footer {
+    width: 100%;
+    padding: 10px  0;
+    background-color: #ed5a0e;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.topo-destaque {
+    font-weight: 600;
+}
+
+.largura-limitada {
+    width: 1024px;
+    margin: auto;
+}
+
+img:first-child {
+    width: 100%;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 25px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 32px;
+}
+
+p:last-child {
+    background-color: #ffb38c;
+    display: inline;
+    padding: 5px 8px;
+}
+
+.destaque {
+    display: block;
+    margin: 25px 0;
+    font-weight: 600;
+    padding-left: 10px;
+    border-left: #ed5a0e 3px solid;
+}
+
+.jogos-destaque {
+    display: flex;
+    overflow-x: scroll;
+    padding: 25px 0 15px 0;
+}
+
+.jogos-destaque figure {
+    margin-right: 15px;
+}
+
+.jogos-destaque span, figcaption {
+    display: block;
+    background-color: #ed5a0e;
+    padding: 8px;
+    text-align: center;
+}
+
+img:nth-child(2) {
+    width: 350px;
+    box-sizing: border-box;
+    padding: 8px 0 5px 0;
+}
+
+footer {
+    margin: 25px 0 0 0;
+}
