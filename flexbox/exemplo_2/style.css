@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.topo h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.topo span {
+    color: rgb(6, 201, 6);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main {
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card-produto {
+    background-color: #fff;
+    border-radius: 4px;
+    flex: 1 1 300px;
+    box-shadow: 5px 5px 8px #a1a1a1a1;
+}
+
+.container-imagem {
+    height: 200px;
+}
+
+.container-imagem img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.container-info {
+    padding: 0px 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container-info h3 {
+    font-size: 18px;
+}
+
+.container-preco {
+    padding: 10px;
+    border-top: 1px solid #c9c4c4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-icone {
+    padding: 5px;
+    border: 1px solid #c9c4c4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
